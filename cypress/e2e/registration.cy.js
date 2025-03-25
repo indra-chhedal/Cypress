@@ -10,9 +10,9 @@ describe('Registration Funcationality', () => {
         cy.get("input[id='customer.address.zipCode']").type('4000')
         cy.get("input[id='customer.phoneNumber']").type('0000000000')
         cy.get("input[id='customer.ssn']").type('111111')
-        cy.get("input[id='customer.username']").type('indra')
-        cy.get("input[id='customer.password']").type('rav123')
-        cy.get('#repeatedPassword').type('rav123')
+        cy.get("input[id='customer.username']").type('rcv')
+        cy.get("input[id='customer.password']").type('rcv123')
+        cy.get('#repeatedPassword').type('rcv123')
         cy.get('[colspan="2"] > .button').click()
         
         
